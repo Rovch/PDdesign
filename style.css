@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #212329;
+  margin: 0;
+  padding: 0;
+}
+
+.side-nav {
+  position: absolute;
+  width: 100%;
+  background-color: #25282E;
+  height: 100vh;
+}
+
+/*--------------------------------- tabs ---------------------------------*/
+
+
+.tabs li {
+  padding: 20px 10px;
+  border-bottom: 1px solid #707070;
+}
+
+.side-nav li a {
+  color: #9FA6A0;
+  text-decoration: none;
+}
+
+.small {
+  width: 50px;
+}
+
+
+/*--------------------------------- icons ---------------------------------*/
+.icons { 
+  width: 100%;
+  position: absolute;
+  margin-top: 75%;
+  border: 2px solid lightblue;
+  height: 400px;
+  bottom: 350px;
+}
+.avi {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  margin-top: 5%;
+}
+
+.icons ul {
+border: 2px solid orange;
+position: absolute;
+bottom: 20px;
+display: block;
+}
+
+.social {
+  width: 100%;
+}
+
+#github {
+  margin-left: 20%;
+}
+.social li {
+  margin-left: 10px;
+  display: inline;
+  width: 100%;
+}
+
+
+
+/*--------------------------------- media tablet ---------------------------------*/
+
+@media screen and (min-width: 600px) {
+  .side-nav {
+    width: 100px;
+  }
+
+  .side-nav li {
+    text-align: center;
+  }
+}
+
+/*--------------------------------- media Desktop ---------------------------------*/
+@media screen and (min-width: 1000px){
+  .side-nav {
+    width: 20%;
+  }
+
+  .tabs{
+    position: absolute;
+    bottom: 0px;
+    margin-top: 200;
+    width: 100%;
+    box-shadow: 0 3px;
+  }
+
+
+}
